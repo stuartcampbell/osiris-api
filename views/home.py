@@ -9,3 +9,4 @@ def index():
 @router.get('/favicon.ico')
 def favicon():
     return fastapi.responses.RedirectResponse(url='/assets/images/favicon.ico')
+
